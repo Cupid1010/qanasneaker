@@ -138,7 +138,7 @@ a:hover {
   min-width: 139px;
   padding: 10px 25px;
   background-color: transparent;
-  color: white;
+  color: rgb(255, 255, 255);
   border: 1px solid #F0E161;
   font-size: 1.4rem;
   font-weight: 750;
@@ -211,9 +211,9 @@ a:hover {
 }
 
 .bg-red {
-  background-color: #ff2323;
-  border-color: #ff2323;
-  box-shadow: 1px 2px 5px #ff2323;
+  background-color: rgb(255, 35, 35);
+  border-color: rgb(255, 35, 35);
+  box-shadow: 1px 2px 5px rgb(255, 35, 35);
   color: white;
 }
 
@@ -311,7 +311,7 @@ button:focus {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1100px;
 }
 
 .filter-header {
@@ -656,11 +656,9 @@ button:focus {
   .form_newsletter input {
     width: 200px;
   }
-
   .title_newsletter {
     display: none;
   }
-
   .header__navigation-item {
     padding: 0 5px;
   }
@@ -690,40 +688,31 @@ button:focus {
   .hiddenonMobile {
     display: none;
   }
-
   .nav--level1__brand::before {
     display: none;
   }
-
   .hotline__link,
-.systemStore__link {
+  .systemStore__link {
     font-size: 1.3rem;
   }
-
   .header {
     padding: 10px 0 20px;
   }
-
   .header__main {
     margin-block: 15px;
   }
-
   .header__icon {
     justify-content: flex-end;
   }
-
   .area_newsletter {
     justify-content: center;
   }
-
   .area_phone_contact {
     justify-content: center;
   }
-
   .footer_main-item {
     text-align: center;
   }
-
   .main__newArrival {
     margin-top: 300px;
   }
@@ -789,7 +778,6 @@ button:focus {
     display: block;
     animation: linear 1s;
   }
-
   .menu {
     position: fixed;
     top: 0;
@@ -800,7 +788,7 @@ button:focus {
     background-color: white;
     flex-direction: column;
     padding-top: 50px;
-    border-left: 1px solid #00000033;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
     gap: 10px 0;
     align-items: stretch;
     transition: all 0.2s linear;
@@ -836,7 +824,6 @@ button:focus {
     justify-content: center;
     gap: 0 30px;
   }
-
   .header-right {
     flex-direction: row-reverse;
     justify-content: flex-start;
@@ -849,7 +836,6 @@ button:focus {
     justify-content: space-between;
     align-items: center;
   }
-
   .slick-arrow span {
     font-size: 1.2rem !important;
   }
@@ -896,7 +882,7 @@ button:focus {
   height: 43px;
   padding-left: 10px;
   font-size: 1.4rem;
-  border: 1px solid #00000033;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   outline: none;
 }
 
@@ -930,7 +916,7 @@ button:focus {
 .footer_support {
   width: 100%;
   background-color: #fcfcfc;
-  border-bottom: 1px solid #00000033;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .footer_support-item {
@@ -1032,28 +1018,22 @@ button:focus {
     display: grid;
     grid-template-columns: 1fr;
   }
-
   .title_newsletter {
     justify-content: flex-start;
   }
-
   .footer_support-item {
     padding: 13px 15px;
     cursor: pointer;
   }
-
   .support-item_icon i {
     font-size: 2.5rem;
   }
-
   .footer_support-item h3 {
     font-size: 1.5rem;
   }
-
   .footer_support-item p {
     font-size: 1.3rem;
   }
-
   .footer_main {
     padding: 10px 10px 55px;
   }
@@ -1154,11 +1134,11 @@ button:focus {
   width: 100%;
   margin-top: 0px;
   transition: all 0.3s linear;
-  box-shadow: 0 0.5px 2px #00000018;
+  box-shadow: 0 0.5px 2px rgba(0, 0, 0, 0.0941176471);
 }
 
 .product__item:hover {
-  box-shadow: 0 5px 50px #00000033;
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.2);
   margin-top: 6px;
   background-color: white;
 }
@@ -1348,7 +1328,7 @@ button:focus {
   margin-top: 20px;
   list-style: none;
   padding-bottom: 5px;
-  border-bottom: 1px solid #00000033;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .detail__nav-item {
@@ -1444,44 +1424,34 @@ button:focus {
   .product__sale span {
     font-size: 1.1rem;
   }
-
   .product__sale::after {
     margin-left: 3px;
   }
-
   .product__sale::before {
     border-width: 12.5px;
   }
-
   .slick-dots {
     bottom: -10%;
   }
-
   .slick-arrow {
     display: none !important;
   }
-
   .slick-slide {
     padding: 1px !important;
   }
-
   .product__price {
     display: block;
   }
-
   .product__detail--footer {
     margin-top: 10px;
     gap: 10px;
   }
-
   .product__rating--icon {
     font-size: 1rem;
   }
-
   .product__item {
     min-height: 266px !important;
   }
-
   .product__name {
     font-size: 1.4rem;
   }
@@ -1508,17 +1478,14 @@ button:focus {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
   .sortByBtn {
     padding: 5px 10px;
     font-size: 1rem;
   }
-
   .sortByBtnList--contaiter {
     display: flex;
     justify-content: space-between;
   }
-
   .collections__type {
     font-size: 3rem;
   }
@@ -1629,7 +1596,7 @@ button:focus {
 }
 .selectSize__btn--item {
   padding: 6px 10px;
-  border: 1px solid #00000033;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 .selectSize__btn--item.active {
@@ -1647,7 +1614,7 @@ button:focus {
 .productColor__text {
   width: 100%;
   border-radius: 5px;
-  box-shadow: 1px 1px 4px #00000033;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 .productDetail__sale--percent {
@@ -1705,7 +1672,7 @@ button:focus {
 }
 
 .product__desc--tabs .nav-pills .nav-link {
-  border: 1px solid #00000033;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .product__desc--tabs .nav-pills .nav-link.active {
@@ -1922,7 +1889,7 @@ button:focus {
   border-radius: 0;
   -webkit-appearance: none;
   resize: none;
-  border: 1px dashed #00000033;
+  border: 1px dashed rgba(0, 0, 0, 0.2);
   color: #000000;
   font-size: 15px;
   padding: 20px;
@@ -2050,51 +2017,40 @@ button:focus {
   #ProductImgZoom .closeBtn {
     padding: 15px;
   }
-
   .cartBtn__container {
     grid-template-columns: 1fr;
     gap: 10px;
   }
-
   #cartModal .modal-content {
     padding-inline: 10px;
   }
-
   .promotion__title img {
     width: 20px;
     height: 20px;
   }
-
   #ProductImgZoom .carousel-indicators li {
     margin-inline: 3px;
   }
-
   .productColor__content-promotion {
     font-size: 16px;
   }
-
   .detailProduct__content--title {
     font-size: 1.4rem;
   }
-
   .content-promotion__item {
     font-size: 1.4rem;
   }
-
   .detailProduct__content--name-des__wraper,
-.detailProduct__content--name-des__content {
+  .detailProduct__content--name-des__content {
     font-size: 1.2rem;
   }
-
   .detailProduct__content--name {
     margin-bottom: 1.5rem;
   }
-
   .detailProduct {
     padding-top: 10px !important;
     position: relative;
   }
-
   .addToCart-btn-sticky {
     display: block;
   }
@@ -2103,12 +2059,10 @@ button:focus {
   .detailProduct__img {
     display: block;
   }
-
   .detailProduct__img--main {
     width: 100%;
     padding: 0;
   }
-
   .detailProduct__img--list {
     width: 100%;
   }
@@ -2117,7 +2071,6 @@ button:focus {
     display: flex;
     overflow: scroll;
   }
-
   .detailProduct__img--item {
     --size:100px;
     width: var(--size);
@@ -2125,7 +2078,6 @@ button:focus {
     object-fit: contain;
     padding: 5px;
   }
-
   .extention-tab {
     display: flex;
     flex-direction: column;
@@ -2136,13 +2088,11 @@ button:focus {
   .extention-tab li button {
     width: 100%;
   }
-
   .ProductImgZoomModal .carousel-control-next,
-.ProductImgZoomModal .carousel-control-prev {
+  .ProductImgZoomModal .carousel-control-prev {
     height: 100px;
     top: 70%;
   }
-
   .ProductImgZoomModal .carousel-inner {
     height: 70%;
   }
@@ -2209,7 +2159,7 @@ form#modalUserInforForm label input {
   font: 15px Helvetica, Arial, sans-serif;
   box-sizing: border-box;
   display: block;
-  border: 1px solid #00000033;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 10px;
   width: 100%;
   min-width: 200px;
@@ -2260,7 +2210,7 @@ form#modalUserInforForm .address__wrapper {
 form#modalUserInforForm .address__list {
   padding: 10px;
   position: absolute;
-  border: 1px solid #00000033;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   max-height: 400px;
   overflow: auto;
   background-color: white;
@@ -2284,15 +2234,12 @@ form#modalUserInforForm .address__wrapper input[type=button] {
   #modalUserInfor .nameAndPhoneInput {
     display: block;
   }
-
   form#modalUserInforForm label input {
     min-width: 300px;
   }
-
   #modalUserInfor .addressInput {
     display: block;
   }
-
   form#modalUserInforForm .address__list {
     max-height: 200px;
   }
@@ -2458,7 +2405,7 @@ form#modalUserInforForm .address__wrapper input[type=button] {
   left: 0;
   bottom: 0;
   height: 6px;
-  background-color: #01904b75;
+  background-color: rgba(1, 144, 75, 0.4588235294);
   border-radius: 5px;
   transition: all 0.1s linear;
 }
@@ -2494,7 +2441,7 @@ form#modalUserInforForm .address__wrapper input[type=button] {
 
 .order__pay--option {
   padding-bottom: 30px;
-  border-bottom: 1px dashed #00000033;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
 .order__pay--summary {
   background: #fffefb;
@@ -2512,7 +2459,7 @@ form#modalUserInforForm .address__wrapper input[type=button] {
 }
 .order__pay--bottom {
   padding-block: 20px;
-  border-top: 1px dashed #00000033;
+  border-top: 1px dashed rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: space-between;
 }
@@ -2589,7 +2536,7 @@ form#modalUserInforForm .address__wrapper input[type=button] {
 }
 
 .discount__list.row .coupon {
-  border: 1px solid #00000033;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 10px;
 }
 
@@ -2667,44 +2614,34 @@ form#modalUserInforForm .address__wrapper input[type=button] {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
   .order__container {
     padding: 28px 10px 24px;
   }
-
   .order__pay--summary {
     gap: 0px;
   }
-
   .cart__body .cart__row {
     grid-template-columns: 1fr;
   }
-
   .cart__header--row {
     display: none;
   }
-
   .order__user--address {
     margin-left: 0px;
   }
-
   .tabs {
     flex-direction: column-reverse;
   }
-
   .tab__item {
     padding: 10px;
     font-size: 1.4rem;
   }
-
   .tab__content p {
     font-size: 1.4rem;
   }
-
   .order__pay--discount {
     padding-block: 0px !important;
   }
-
   .discount__list.row .coupon {
     margin-bottom: 10px !important;
   }
@@ -2714,24 +2651,19 @@ form#modalUserInforForm .address__wrapper input[type=button] {
   .discount__list.row .coupon .tengah p {
     font-size: 1.4rem;
   }
-
   .discount__list.row .coupon {
     padding: 5px;
   }
-
   .discount__list.row > div {
     padding: 0 5px;
   }
-
   .order__pay--summary--title {
     justify-content: flex-end;
     font-size: 1.4rem;
   }
-
   .order__pay--summary div {
     padding: 10px;
   }
-
   .order__pay--bottom {
     flex-direction: column-reverse;
     gap: 10px;
@@ -2743,15 +2675,12 @@ form#modalUserInforForm .address__wrapper input[type=button] {
     display: flex;
     justify-content: flex-end;
   }
-
   .discoust--show .discount__number {
     font-size: 1rem;
   }
-
   .discoust--show {
     flex-direction: column;
   }
-
   .order__pay--whiteSpace {
     padding: 0 !important;
     width: 0px;
@@ -2801,7 +2730,6 @@ form#modalUserInforForm .address__wrapper input[type=button] {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
   }
-
   .filter__color ul {
     grid-template-columns: 25% 25% 25%;
   }
